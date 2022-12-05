@@ -81,13 +81,14 @@ h2 {
     right: 12.7rem;
 }
 
-@media (max-length: 60em) {
+@media (max-length: 70rem) {
     .clock .profile {
-        margin-top: 48em;
+        margin-top: 60em;
     }
 }
 
 a {
     color: aqua;
+    letter-spacing: 0.3rem;
     text-shadow: 0.2rem 0.2rem 0.4rem rgb(250, 1, 1);
 }
