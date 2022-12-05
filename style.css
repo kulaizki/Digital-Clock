@@ -74,21 +74,18 @@ h2 {
 }
 
 .clock .profile {
+    display: flex;
     position:absolute;
     font-size: 3.5rem;
     background: none;
-    top: 14rem;
+    margin-top: 22rem;
     right: 12.7rem;
 }
 
-@media (max-length: 70rem) {
-    .clock .profile {
-        margin-top: 60em;
-    }
-}
 
 a {
     color: aqua;
-    letter-spacing: 0.3rem;
     text-shadow: 0.2rem 0.2rem 0.4rem rgb(250, 1, 1);
 }
+
+
